@@ -7,7 +7,7 @@ class Ptk < Formula
     license "MIT"
   
     def install
-      system "sh", "./install-for-brew.sh" bin
+      system "sh", "./install-for-brew.sh", bin
     end
   
     test do
