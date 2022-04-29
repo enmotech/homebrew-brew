@@ -3,11 +3,11 @@ class Ptk < Formula
     homepage "https://docs.mogdb.io/zh/ptk"
     url "https://cdn-mogdb.enmotech.com/ptk/ptk-latest.tar.gz"
     version "latest"
-    sha256 "d0a96741fb64701737f4cc7e30403cc56091e6dc46493b721d3b490b77b35013"
+    sha256 "b54eb30aaaa0833507884169294d19a08cdaa5f31391b5ed216d48f2041c1083"
     license "MIT"
   
     def install
-      system "sh", "./install.sh"
+      system "sh", "./install-for-brew.sh" bin
     end
   
     test do
